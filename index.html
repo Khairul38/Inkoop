@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Fontawesome icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>BookPod</title>
+</head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <nav class="navbar">
+            <div class="topnav-menu">
+                <a href="" class="icon">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+            <div class="brand-title"><h1>BookPod<span>.</span></h1></div>
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">Categories</a>
+                <a href="#contact">Podcasts</a>
+            </div>
+            <div class="search-field">
+                <i class="fas fa-search"></i>
+                <input type="search" name="" id="" placeholder="Search...">
+            </div>
+        </nav>
+    </header>
+    <!-- Header end -->
+    <main>
+        <!-- Section 1 -->
+        <section class="container">
+            <div data-aos="fade-up" class="heading-title">
+                <h1>Home of <span>100,000+</span> <br>books and podcasts</h1>
+                <p>Get the latest books and listen to the <br> latest podcasts all in one place</p>
+                <button>Get Started</button>
+            </div>
+        </section>
+        <!-- Section 2 -->
+        <section class="container">
+            <div class="banner">
+                <div data-aos="fade-right" class="banner-image">
+                    <img src="images/sincerely-media.png" alt="">
+                </div>
+                <div data-aos="fade-left">
+                    <div class="banner-title">
+                        <h4><span>LOREM IPSUM</span></h4>
+                        <h1>Lorem Ipsum <br> dolor sit amet</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est aspernatur, impedit distinctio distinctio distinctio
+                            distinctio</p>
+                    </div>
+                    <div class="social-icon">
+                        <a target="_blank" href="https://t.ly/P2sZ"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/khairul.islam.98499123"><i class="fab fa-facebook"></i></a>
+                        <a target="_blank" href="https://t.ly/P2sZ"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/khairul-alam683/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 3 -->
+        <section class="container">
+            <div data-aos="fade-up" class="all-writers">
+                <h1 class="writers-title">Featured Writers</h1>
+                <div class="writers">
+                    <div class="writer">
+                        <img src="images/E-R-Braithwaite.png" alt="">
+                        <h3>E R Braithwaite</h3>
+                    </div>
+                    <div class="writer">
+                        <img src="images/Andrea-Levy.png" alt="">
+                        <h3>Andrea Levy</h3>
+                    </div>
+                    <div class="writer">
+                        <img src="images/Stephen-King.png" alt="">
+                        <h3>Stephen King</h3>
+                    </div>
+                    <div class="writer">
+                        <img src="images/Jorge-Amado.png" alt="">
+                        <h3>Jorge Amado</h3>
+                    </div>
+                    <div class="writer">
+                        <img src="images/Gayle Forman.png" alt="">
+                        <h3>Gayle Forman</h3>
+                    </div>
+                    <div class="writer">
+                        <img src="images/Shashi-Tharoor.png" alt="">
+                        <h3>Shashi Tharoor</h3>
+                    </div>
+                    <div class="writer">
+                        <img src="images/J-K-Rowling.png" alt="">
+                        <h3>J. K. Rowling</h3>
+                    </div>
+                    <div class="writer">
+                        <img src="images/John-Green.png" alt="">
+                        <h3>John Green</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+                offset: 120,
+                delay: 0,
+                duration: 400,
+                easing: 'ease',
+                once: false,
+                mirror: false,
+                anchorPlacement: 'top-bottom',
+})
+    </script>
+</body>
+
+</html>
